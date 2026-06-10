@@ -29,6 +29,21 @@ body {
   /* ---------- */
 }
 
+/* Chrome / Edge / Safari */
+main::-webkit-scrollbar {
+    display: none;
+}
+
+/* Firefox */
+main {
+  scrollbar-width: none;
+}
+
+/* IE / 旧Edge */
+main {
+  -ms-overflow-style: none;
+}
+
 img,
 picture,
 svg,
